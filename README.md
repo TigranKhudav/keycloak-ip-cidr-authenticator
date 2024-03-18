@@ -34,15 +34,15 @@ Run keycloak on dev mode
 start-dev
 ```
 
-## Configuration
+# Configuration
 
-# IP Authenticator config
+### IP Authenticator config
 
-add step `IP Authenticator` in your flow
-set alias name for excample `ip-whitelist`
-set CIDR for excample `192.168.1.0/24`
+* add step `IP Authenticator` in your flow
+* set alias name for excample `ip-whitelist`
+* set CIDR for excample `192.168.1.0/24`
 
-# Conditional OTP Form config
+### Conditional OTP Form config
 set alias name for excample `ip-whitelist`
 set OTP control User Attribute `ip_based_otp_conditional`
 set Fallback OTP handling  `skip`
