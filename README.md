@@ -10,9 +10,7 @@ forced.
 
 The authenticator has to be used together with `Conditional OTP Form` component.
 
-See the following Youtube video which explains how to deploy and configure it in Keycloak: https://youtu.be/u36QK9oyrtM.
-
-## build your own OR deploy `keycloak-ip-authenticator.jar` into `/opt/keycloak/providers/` folder
+### Build your own jar file or deploy `keycloak-ip-authenticator.jar` into `/opt/keycloak/providers/` folder
 
 To build the project execute the following command:
 
